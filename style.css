@@ -1,0 +1,45 @@
+    .bolditalic {
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        border-radius: 100%; 
+        width: 200px;
+    }
+
+    body {
+        background-color: #76949F;
+    }
+
+    .alinhamento{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p{
+        line-height: 4px;
+        
+    }
+
+    h2{
+        padding-top: 25px;
+    }
+
+    #margin{
+        margin: auto;
+        text-align: justify;
+    }
+
+    .displayedhardskill {
+        display: flex;
+        justify-content: center;
+        border-radius: 100%; 
+        width: 100px;
+    }
