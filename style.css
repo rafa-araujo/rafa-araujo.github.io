@@ -1,45 +1,36 @@
-    .bolditalic {
-        font-weight: 600;
-        font-style: italic;
-    }
-
-    .displayed {
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
-        border-radius: 100%; 
-        width: 200px;
-    }
-
     body {
         background-color: #76949F;
+        padding: 3%;
     }
 
-    .alinhamento{
-        justify-content: center;
-        align-items: center;
+    p, h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position:relative;
+        left: 5px;
+    }
+
+    #minha-foto{
+        float: left;
+        height: 226px;
+        padding: 5px;
+        background-color: black;
+    }
+
+    .image-container{
+        height: 235px;
+        position: relative;
+    }
+
+    ul li:nth-child(odd){
+        background-color: aqua;
+    }
+  
+    .meunome {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    p{
-        line-height: 4px;
-        
     }
 
-    h2{
-        padding-top: 25px;
-    }
-
-    #margin{
-        margin: auto;
-        text-align: justify;
-    }
-
-    .displayedhardskill {
-        display: flex;
-        justify-content: center;
-        border-radius: 100%; 
-        width: 100px;
+    .hardskills {
+        border-radius: 100%;
+        width: 50px;
     }
